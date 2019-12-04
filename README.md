@@ -12,15 +12,16 @@ This is a simple JS/HTML code with no specific dependencies.
 
 To run this code from command prompt
 
-````
+```
 git clone https://github.com/prakadeesh26/weatherreport.git
 cd weatherreport
 open index.html file in chrome
 ```
 
-#Supported Browser
+# Supported Browser
+
 - Runs best in - Google Chrome or mozilla firefox recommended
 
-#Credits
+# Credits
+
 - Weather api's provided by api.openweathermap.org
-````

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-image: url("images/sky.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <meta http-equiv="refresh" content="601" />
+  </head>
+
+  <body>
+    <h1>
+      <center>Sydney weather Forecast</center>
+    </h1>
+
+    <h2>Days when the Temperature will be over 20 degree celsius</h2>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Date Time</th>
+          <th scope="col">Forecast</th>
+        </tr>
+      </thead>
+      <tbody id="Temp20"></tbody>
+    </table>
+
+    <h3>Sunny days in Sydney</h3>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Date Time</th>
+          <th scope="col">Forecast</th>
+        </tr>
+      </thead>
+      <tbody id="SunnyDay"></tbody>
+    </table>
+
+    <script src="js/weatherreport.js"></script>
+  </body>
+</html>
